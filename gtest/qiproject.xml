@@ -1,0 +1,6 @@
+<project version="3">
+  <license>BSD</license>
+  <qibuild name="gtest">
+    <depends buildtime="true" runtime="true" names="pthread" />
+  </qibuild>
+</project>

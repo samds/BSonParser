@@ -1,0 +1,17 @@
+<project format="3">
+  <maintainer email="xxx@xxx.com">Sam ds</maintainer>
+
+  <!-- set version and license below -->
+  <version>1.0</version>
+  <license>LICENSE</license>
+
+  <qibuild name="BSON">
+    <!-- Add your project dependencies here
+    <depends buildtime="true" runtime="true" names="foo" />
+    -->
+    <depends testtime="true" buildtime="true" names="gtest" />
+  </qibuild>
+
+    <!-- used by qidoc to build the Doxygen documentation -->
+    <qidoc name="BSON-dox" type="doxygen" />
+</project>
